@@ -14,6 +14,7 @@
 		3B4B3DF22019F03D0096C9AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4B3DF02019F03D0096C9AD /* LaunchScreen.storyboard */; };
 		3B4B3DF52019F03D0096C9AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B3DF42019F03D0096C9AD /* main.m */; };
 		3B4B3DFD2019F06E0096C9AD /* NSURL+QCUrlWithChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B3DFC2019F06D0096C9AD /* NSURL+QCUrlWithChinese.m */; };
+		3BEBEB2B2022BFE5008BFBA9 /* QCProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBEB2A2022BFE5008BFBA9 /* QCProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3B4B3DF42019F03D0096C9AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B4B3DFB2019F06D0096C9AD /* NSURL+QCUrlWithChinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QCUrlWithChinese.h"; sourceTree = "<group>"; };
 		3B4B3DFC2019F06D0096C9AD /* NSURL+QCUrlWithChinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QCUrlWithChinese.m"; sourceTree = "<group>"; };
+		3BEBEB292022BFE4008BFBA9 /* QCProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCProxy.h; sourceTree = "<group>"; };
+		3BEBEB2A2022BFE5008BFBA9 /* QCProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 			children = (
 				3B4B3DFB2019F06D0096C9AD /* NSURL+QCUrlWithChinese.h */,
 				3B4B3DFC2019F06D0096C9AD /* NSURL+QCUrlWithChinese.m */,
+				3BEBEB292022BFE4008BFBA9 /* QCProxy.h */,
+				3BEBEB2A2022BFE5008BFBA9 /* QCProxy.m */,
 				3B4B3DE52019F03C0096C9AD /* AppDelegate.h */,
 				3B4B3DE62019F03C0096C9AD /* AppDelegate.m */,
 				3B4B3DE82019F03C0096C9AD /* ViewController.h */,
@@ -147,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BEBEB2B2022BFE5008BFBA9 /* QCProxy.m in Sources */,
 				3B4B3DFD2019F06E0096C9AD /* NSURL+QCUrlWithChinese.m in Sources */,
 				3B4B3DEA2019F03D0096C9AD /* ViewController.m in Sources */,
 				3B4B3DF52019F03D0096C9AD /* main.m in Sources */,
